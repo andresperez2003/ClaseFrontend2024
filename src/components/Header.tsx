@@ -1,5 +1,6 @@
 
 import "../styles/Header.css"
+import Clock from "./Clock";
 
 
 interface HeaderProps {
@@ -12,6 +13,7 @@ const Header : React.FC<HeaderProps> = ({ onSelect }) => {
     <ul>
     <li onClick={() => onSelect && onSelect('Manizales')}>Manizales </li>
     <li onClick={() => onSelect('Touristic site')}>Touristic site</li>
+    <li onClick={() => onSelect('ContactUs')}>Contact us</li>
     </ul>
    </header>
   )

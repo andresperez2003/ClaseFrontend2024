@@ -1,4 +1,5 @@
 import "../styles/Principal.css"
+import ContactUs from "./ContactUs";
 import MapaManizales from "./MapManizales"
 import TouristSites from "./TouristSites"
 
@@ -21,6 +22,7 @@ export const Principal: React.FC<{ selectedTab: string }> = ({ selectedTab }) =>
         <section className="principal">
         {selectedTab === 'Manizales' && <MapaManizales />}
         {selectedTab === 'Touristic site' && <TouristSites />}
+        {selectedTab === "ContactUs" && <ContactUs />}
         </section>
     </main>
   )
