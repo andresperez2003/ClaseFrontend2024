@@ -1,10 +1,15 @@
-.footer{
-    width: 98%;
-    max-width: 1200px;
+footer{
+    width: 100%;
+    border-left: 10px;
+    max-width: 1300px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
-    border-radius: 10px;
-    background: #2e5adf;
+    background: #727374;
+    position: fixed;
+    padding-left: 40px;
+    bottom: 0;
+    left: 0;
   }
+

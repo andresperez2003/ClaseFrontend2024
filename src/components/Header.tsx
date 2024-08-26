@@ -1,9 +1,18 @@
 
 import "../styles/Header.css"
-const Header = () => {
+
+
+interface HeaderProps {
+  onSelect: (tab: string) => void;
+}
+
+const Header : React.FC<HeaderProps> = ({ onSelect }) => {
   return (
     <header className='header'>
-    This is the header
+    <ul>
+    <li onClick={() => onSelect && onSelect('Manizales')}>Manizales </li>
+    <li onClick={() => onSelect('Touristic site')}>Touristic site</li>
+    </ul>
    </header>
   )
 }

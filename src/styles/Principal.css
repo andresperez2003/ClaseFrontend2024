@@ -1,18 +1,20 @@
 .main{
-    max-width: 1200px;
-    margin: 20px auto;
+    max-width: 1300px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     min-height: 80vh; 
   }
+
+
   
   .main .aside{
     display: flex;
-    flex-direction: center;
-    justify-content: center;
+    padding-top: 40px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
     border-radius: 10px;
     width: 25%;
-    background: #2e5adf;
   }
   
   .main .principal{
@@ -20,6 +22,5 @@
     align-items: center;
     justify-content: center;
     width: 64%;
-    border-radius: 10px;
-    background: #2e5adf;
+    background: #fff;
   }
